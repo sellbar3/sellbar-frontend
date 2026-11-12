@@ -355,5 +355,4 @@ NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dbd4anwt
 ## 👥 Maintained & License
 
 - **Maintained by**: [Maajanki Web Tech](https://maajankiwebtech.com)
-- **License**: MIT
 <!-- trigger deploy 2026-11-12 14:46:44 -->
