@@ -1,1 +1,57 @@
-{   "name": "sellbar-frontend",   "version": "0.1.0",   "private": true,   "main": "server.js",   "engines": {     "node": ">=20.0.0"   },   "scripts": {     "dev": "next dev",     "build": "next build --webpack",     "start": "node server.js",     "start:next": "next start",     "lint": "eslint"   },   "dependencies": {     "@emotion/react": "^11.14.0",     "@emotion/styled": "^11.14.1",     "@mui/icons-material": "^9.5.0",     "@mui/material": "^9.5.0",     "@mui/x-charts": "^9.17.0",     "@mui/x-data-grid": "^9.17.0",     "@mui/x-date-pickers": "^9.17.0",     "@mui/x-scheduler": "^9.0.0-beta.15",     "@mui/x-tree-view": "^9.17.0",     "@radix-ui/react-checkbox": "^1.4.1",     "@radix-ui/react-select": "^2.4.1",     "@radix-ui/react-slot": "^1.5.0",     "@descope/user-profile-widget": "^0.21.4",     "@heroui/system": "^2.4.18",     "@heroui/theme": "^2.4.24",     "@heroui/user": "^2.2.26",     "framer-motion": "^12.4.7",     "react-icons": "^5.5.0",     "class-variance-authority": "^0.7.1",     "clsx": "^2.1.1",     "dayjs": "^1.11.23",     "gsap": "^3.15.0",     "lucide-react": "^1.63.0",     "mongoose": "^9.11.4",     "motion": "^14.8.0",     "next": "16.4.2",     "react": "19.3.0",     "react-dom": "19.3.0",     "recharts": "^3.10.1",     "tailwind-merge": "^3.7.0",     "@tailwindcss/postcss": "^4.3.5",     "postcss": "^8.5.32",     "tailwindcss": "^4"   },   "devDependencies": {     "@tailwindcss/turbopack": "^4",     "babel-plugin-react-compiler": "1.0.0",     "eslint": "^9",     "eslint-config-next": "16.4.2"   } }
+{
+  "name": "sellbar-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "node server.js",
+    "start:next": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.5.0",
+    "@mui/material": "^9.5.0",
+    "@mui/x-charts": "^9.17.0",
+    "@mui/x-data-grid": "^9.17.0",
+    "@mui/x-date-pickers": "^9.17.0",
+    "@mui/x-scheduler": "^9.0.0-beta.15",
+    "@mui/x-tree-view": "^9.17.0",
+    "@radix-ui/react-checkbox": "^1.4.1",
+    "@radix-ui/react-select": "^2.4.1",
+    "@radix-ui/react-slot": "^1.5.0",
+    "@descope/user-profile-widget": "^0.21.4",
+    "@heroui/system": "^2.4.18",
+    "@heroui/theme": "^2.4.24",
+    "@heroui/user": "^2.2.26",
+    "framer-motion": "^12.4.7",
+    "react-icons": "^5.5.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.23",
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.63.0",
+    "mongoose": "^9.11.4",
+    "motion": "^14.8.0",
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "recharts": "^3.10.1",
+    "tailwind-merge": "^3.7.0",
+    "@tailwindcss/postcss": "^4.3.5",
+    "postcss": "^8.5.32",
+    "tailwindcss": "^4"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2"
+  }
+}
